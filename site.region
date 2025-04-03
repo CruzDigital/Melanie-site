@@ -3,7 +3,6 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
-    {squarespace-headers}
 <title>Melanie Dunea - Fine Art & Photography</title>
 <meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
 
@@ -164,6 +163,7 @@
       <squarespace:folder-navigation template="index-navigation" />
     </div>
 
+    {squarespace-headers}
     <squarespace:script src="site-bundle.js" />
 
     {squarespace-footers}
