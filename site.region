@@ -6,6 +6,15 @@
 <title>Melanie Dunea - Fine Art & Photography</title>
 <meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
 
+<style>
+      body {
+        visibility: hidden;
+      }
+      body.loaded {
+        visibility: visible;
+      }
+    </style>
+
   </head>
   <body id="{squarespace.page-id}" class='{squarespace.page-classes}{.section item}{.or}<squarespace:folder-navigation>{.if items.0}{.equal? collection.typeName "index"} has-index-nav{.end}{.end}</squarespace:folder-navigation>{.end}{.section collection}{.background-source-video?} has-main-image{.or}{.section mainImage} has-main-image{.end}{.end}{.end}' data-controller="MainContentPositioning, MercuryLoader">
     <div class="mercury-transition-wrapper">
@@ -164,8 +173,14 @@
     </div>
 
     {squarespace-headers}
-    <squarespace:script src="site-bundle.js" />
-
     {squarespace-footers}
+
+ <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        document.body.classList.add("loaded");
+      });
+    </script>
+
+    <squarespace:script src="site-bundle.js" />
   </body>
 </html>
