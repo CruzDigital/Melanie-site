@@ -173,7 +173,6 @@
     </div>
 
     {squarespace-headers}
-    {squarespace-footers}
 
  <script>
       document.addEventListener("DOMContentLoaded", function() {
@@ -182,5 +181,7 @@
     </script>
 
 <squarespace:script src="site-bundle.js" />
+    {squarespace-footers}
+
   </body>
 </html>
