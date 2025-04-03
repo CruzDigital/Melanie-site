@@ -172,7 +172,7 @@
       <squarespace:folder-navigation template="index-navigation" />
     </div>
 
-    <squarespace:script src="squarespace-headers.js" defer />
+    {squarespace-headers}
     {squarespace-footers}
 
  <script>
