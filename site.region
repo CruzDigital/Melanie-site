@@ -181,6 +181,6 @@
       });
     </script>
 
-    <squarespace:script src="site-bundle.js" />
+<squarespace:script src="site-bundle.js" defer />
   </body>
 </html>
