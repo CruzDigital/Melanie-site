@@ -1,98 +1,43 @@
 <!doctype html>
 <html {.if authenticatedAccount}class="authenticated-account"{.end}>
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="initial-scale=1" />
+    <title>Melanie Dunea - Fine Art & Photography</title>
+    <meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
 
-<div class="hero-wrapper fade-on-load">
-  <img src="https://images.squarespace-cdn.com/content/v1/5d95ae97de4f337366209b47/1631811582063-K7TAPXFLI4DYLVPMKP6Y/Odeon+French+Fries+%232_RT.jpg?format=2500w" alt="Hero" />
-</div>
+    <style>
+      .fade-on-load {
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+      }
 
-<style>
-  .fade-on-load {
-    opacity: 0;
-    transition: opacity 0.6s ease-in-out;
-  }
+      html.ready .fade-on-load {
+        opacity: 1;
+        transform: translateY(0);
+      }
 
-  html.loaded .fade-on-load {
-    opacity: 1;
-  }
-</style>
-
-<script>
-  document.documentElement.classList.remove('loaded'); // safety
-  window.addEventListener('load', function () {
-    document.documentElement.classList.add('loaded');
-  });
-</script>
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="initial-scale=1">
-  <title>Melanie Dunea - Fine Art & Photography</title>
-  <meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
-
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="initial-scale=1">
-  <title>Melanie Dunea - Fine Art & Photography</title>
-  <meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
-
- <style>
-  .fade-on-load {
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
-
-  html.ready .fade-on-load {
-    opacity: 1;
-    transform: translateY(0);
-  }
-</style>
-
-<script>
-  window.addEventListener("DOMContentLoaded", function () {
-    // Wait for DOM to be ready, then start fade
-    document.documentElement.classList.add("ready");
-  });
-</script>
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="initial-scale=1">
-<title>Melanie Dunea - Fine Art & Photography</title>
-<meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
-
-<style>
-
-.collection-nav-item-span {
-  content-visibility: auto;
-  will-change: transform;
-}
-
-      /* Optimize LCP by prioritizing rendering */
       .collection-nav-item-span {
         content-visibility: auto;
+        will-change: transform;
       }
-</style>
+    </style>
 
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="initial-scale=1">
-<title>Melanie Dunea - Fine Art & Photography</title>
-<meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
-
-<style>
-
-.collection-nav-item-span {
-  content-visibility: auto;
-  will-change: transform;
-}
-
-      /* Optimize LCP by prioritizing rendering */
-      .collection-nav-item-span {
-        content-visibility: auto;
-      }
-</style>
-
+    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        document.documentElement.classList.add("ready");
+      });
+    </script>
   </head>
+  <body>
+    <div class="hero-wrapper fade-on-load">
+      <img src="https://images.squarespace-cdn.com/content/v1/5d95ae97de4f337366209b47/1631811582063-K7TAPXFLI4DYLVPMKP6Y/Odeon+French+Fries+%232_RT.jpg?format=2500w" alt="Hero" />
+    </div>
+  </body>
+</html>
+
   <body id="{squarespace.page-id}" class='{squarespace.page-classes}{.section item}{.or}<squarespace:folder-navigation>{.if items.0}{.equal? collection.typeName "index"} has-index-nav{.end}{.end}</squarespace:folder-navigation>{.end}{.section collection}{.background-source-video?} has-main-image{.or}{.section mainImage} has-main-image{.end}{.end}{.end}' data-controller="MainContentPositioning, MercuryLoader">
     <div class="mercury-transition-wrapper">
       <div class="content-outer-wrapper" data-controller="HeaderOverflow, NavToggle, HeaderScroll, OverlayNavOverflow, SocialIconFadein, SetActiveNavLink">
