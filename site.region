@@ -12,12 +12,23 @@
   content-visibility: auto;
   will-change: transform;
 }
-body {
-  visibility: hidden;
-}
-body.loaded {
-  visibility: visible;
-}
+
+<style>
+  body:not(.loaded) {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  body.loaded {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  window.addEventListener("load", function () {
+    document.body.classList.add("loaded");
+  });
+</script>
 
       /* Optimize LCP by prioritizing rendering */
       .collection-nav-item-span {
