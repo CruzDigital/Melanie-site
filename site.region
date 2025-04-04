@@ -1,6 +1,40 @@
 <!doctype html>
 <html {.if authenticatedAccount}class="authenticated-account"{.end}>
   <head>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="initial-scale=1">
+  <title>Melanie Dunea - Fine Art & Photography</title>
+  <meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
+
+  <!-- 🔒 Prevent flashing before page is fully loaded -->
+  <style>
+    html.loading body {
+      visibility: hidden;
+    }
+
+    body {
+      transition: opacity 0.3s ease;
+      opacity: 0;
+    }
+
+    html:not(.loading) body {
+      opacity: 1;
+    }
+
+    .collection-nav-item-span {
+      content-visibility: auto;
+      will-change: transform;
+    }
+  </style>
+
+  <script>
+    document.documentElement.classList.add('loading');
+    window.addEventListener('load', function () {
+      document.documentElement.classList.remove('loading');
+    });
+  </script>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
 <title>Melanie Dunea - Fine Art & Photography</title>
@@ -12,23 +46,6 @@
   content-visibility: auto;
   will-change: transform;
 }
-
-<style>
-  body:not(.loaded) {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  body.loaded {
-    opacity: 1;
-  }
-</style>
-
-<script>
-  window.addEventListener("load", function () {
-    document.body.classList.add("loaded");
-  });
-</script>
 
       /* Optimize LCP by prioritizing rendering */
       .collection-nav-item-span {
