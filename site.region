@@ -185,6 +185,12 @@ body.loaded {
         {squarespace-headers}
     {squarespace-footers}
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+         document.body.classList.add("loaded");
+    });
+  </script>
+
     <squarespace:script src="site-bundle.js" defer />
   </body>
 </html>
