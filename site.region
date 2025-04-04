@@ -12,6 +12,12 @@
   content-visibility: auto;
   will-change: transform;
 }
+body {
+  visibility: hidden;
+}
+body.loaded {
+  visibility: visible;
+}
 
       /* Optimize LCP by prioritizing rendering */
       .collection-nav-item-span {
