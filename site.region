@@ -40,20 +40,6 @@
       }
 </style>
 
-
-<style>
-
-.collection-nav-item-span {
-  content-visibility: auto;
-  will-change: transform;
-}
-
-      /* Optimize LCP by prioritizing rendering */
-      .collection-nav-item-span {
-        content-visibility: auto;
-      }
-</style>
-
   </head>
   <body id="{squarespace.page-id}" class='{squarespace.page-classes}{.section item}{.or}<squarespace:folder-navigation>{.if items.0}{.equal? collection.typeName "index"} has-index-nav{.end}{.end}</squarespace:folder-navigation>{.end}{.section collection}{.background-source-video?} has-main-image{.or}{.section mainImage} has-main-image{.end}{.end}{.end}' data-controller="MainContentPositioning, MercuryLoader">
   <div class="hero-wrapper fade-on-load">
