@@ -1,17 +1,13 @@
 <!doctype html>
 <html {.if authenticatedAccount}class="authenticated-account"{.end}>
   <head>
+    <link rel="preload" href="URL-OF-YOUR-LCP-IMAGE" as="image">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
 <title>Melanie Dunea - Fine Art & Photography</title>
 <meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
 
 <style>
-
-.collection-nav-item-span {
-  content-visibility: auto;
-  will-change: transform;
-}
       body {
         visibility: hidden;
       }
