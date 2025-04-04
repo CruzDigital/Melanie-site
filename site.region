@@ -1,10 +1,42 @@
 <!doctype html>
 <html {.if authenticatedAccount}class="authenticated-account"{.end}>
   <head>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
-<title>Melanie Dunea - Fine Art & Photography</title>
-<meta name="description" content="Discover the fine art photography of Melanie Dunea. Luxury prints, books, and exclusive visual storytelling.">
+
+<!-- Home -->
+<title>Melanie Dunea – Fine Art & Photography</title>
+<meta name="description" content="Discover award-winning photographer Melanie Dunea’s iconic portraits, celebrity photography, and storytelling.">
+
+<!-- Photography -->
+<title>Photography Portfolio – Melanie Dunea</title>
+<meta name="description" content="Explore Melanie Dunea’s striking photography—celebrity portraits, food culture, and fine art storytelling.">
+
+<!-- Shop -->
+<title>Fine Art Prints & Books – Melanie Dunea</title>
+<meta name="description" content="Shop exclusive fine art prints and books by Melanie Dunea, featuring her renowned 'My Last Supper' series.">
+
+<!-- Books -->
+<title>Melanie Dunea’s Books – Stories in Photography</title>
+<meta name="description" content="Discover Melanie Dunea’s bestselling books, blending photography and storytelling, including 'My Last Supper.'">
+
+<!-- Mood -->
+<title>Moodboard – Inspiration by Melanie Dunea</title>
+<meta name="description" content="A visual journey into Melanie Dunea’s creative process—exploring ideas, inspirations, and artistic storytelling.">
+
+<!-- About -->
+<title>About Melanie Dunea – Photographer & Author</title>
+<meta name="description" content="Learn about Melanie Dunea’s career, artistic vision, and journey as an acclaimed photographer and author.">
+
+<!-- FAQ -->
+<title>Frequently Asked Questions – Melanie Dunea</title>
+<meta name="description" content="Get answers about fine art prints, book purchases, photography inquiries, and more.">
+
+<!-- Contact -->
+<title>Contact Melanie Dunea – Bookings & Inquiries</title>
+<meta name="description" content="Get in touch with Melanie Dunea for media inquiries, photography bookings, or creative collaborations.">
+
 
 <style>
       body {
