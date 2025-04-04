@@ -75,7 +75,6 @@
 </style>
 
   </head>
-
   <body id="{squarespace.page-id}" class='{squarespace.page-classes}{.section item}{.or}<squarespace:folder-navigation>{.if items.0}{.equal? collection.typeName "index"} has-index-nav{.end}{.end}</squarespace:folder-navigation>{.end}{.section collection}{.background-source-video?} has-main-image{.or}{.section mainImage} has-main-image{.end}{.end}{.end}' data-controller="MainContentPositioning, MercuryLoader">
     <div class="mercury-transition-wrapper">
       <div class="content-outer-wrapper" data-controller="HeaderOverflow, NavToggle, HeaderScroll, OverlayNavOverflow, SocialIconFadein, SetActiveNavLink">
